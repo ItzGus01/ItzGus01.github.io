@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Discografia</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    /* Header */
+    header {
+      background-color: #3498db;
+      padding: 30px;
+      text-align: center;
+      font-size: 36px;
+      color: white;
+    }
+
+    header h2 {
+      margin: 0;
+    }
+
+    /* Section for the main content */
+    section {
+      padding: 20px;
+      background-color: #fff;
+    }
+
+    /* Discography Title */
+    .discography-title {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 30px;
+      color: #2c3e50;
+    }
+
+    /* Container for album list */
+    .album-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    /* Album block */
+    .album {
+      background-color: #ecf0f1;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .album:hover {
+      transform: scale(1.05);
+    }
+
+    .album img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .album a {
+      text-decoration: none;
+      color: #3498db;
+      font-size: 18px;
+    }
+
+    .album a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #3498db;
+      padding: 10px;
+      text-align: center;
+      color: white;
+      font-size: 14px;
+    }
+
+    /* Alternative Versions Title */
+    .alternative-title {
+      text-align: center;
+      font-size: 28px;
+      margin-top: 50px;
+      margin-bottom: 30px;
+      color: #2c3e50;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Discografia</h2>
+  </header>
+
+  <section>
+    <h3 class="discography-title">Discografia Principal</h3>
+
+    <div class="album-container">
+      <!-- Taylor Swift -->
+      <div class="album">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/3/3e/Taylor_Swift_%C3%81lbum.jpg" alt="Taylor Swift">
+        <a href="https://open.spotify.com/intl-pt/album/5eyZZoQEFQWRHkV2xgAeBw?si=wnYvgWgoQ6-408q1wUONIw" target="_blank">Taylor Swift</a>
+      </div>
+      
+      <!-- Fearless -->
+      <div class="album">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/7/75/Taylor_Swift_-_Fearless.jpg" alt="Fearless">
+        <a href="https://open.spotify.com/intl-pt/album/2gP2LMVcIFgVczSJqn340t?si=qE8FpdqeRF2gKbes91oRGQ" target="_blank">Fearless</a>
+      </div>
+
+      <!-- Speak Now -->
+      <div class="album">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/0/00/Taylor_Swift_-_Speak_Now.jpg" alt="Speak Now">
+        <a href="https://open.spotify.com/intl-pt/album/6Ar2o9KCqcyYF9J0aQP3au?si=j5wp_9PkRXuclMeOxt6CDg" target="_blank">Speak Now</a>
+      </div>
+
+      <!-- Red -->
+      <div class="album">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/8/8b/Capa_de_Red_por_Taylor_Swift.jpg" alt="Red">
+        <a href="https://open.spotify.com/intl-pt/album/1EoDsNmgTLtmwe1BDAVxV5?si=Km064RX_TvSca9ich81N4g" target="_blank">Red</a>
+      </div>
+
+      <!-- 1989 -->
+      <div class="album">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/c/c3/1989_de_Taylor_Swift.jpg" alt="1989">
+        <a href="https://open.spotify.com/intl-pt/album/5fy0X0JmZRZnVa2UEicIOl?si=lfzawjKPRXSxftYoAgdSUA" target="_blank">1989</a>
+      </div>
+
+      <!-- Reputation -->
+      <div class="album">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ba/16/42/ba1642a8-0c75-a83d-3b9c-8c2eba140dc5/00843930033133.rgb.jpg/1200x1200bf-60.jpg" alt="Reputation">
+        <a href="https://open.spotify.com/intl-pt/album/6DEjYFkNZh67HP7R9PSZvv?si=8xcFyt4vR6K-Sfz99lcsvg" target="_blank">Reputation</a>
+      </div>
+
+      <!-- Lover -->
+      <div class="album">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/1/19/Capa_de_Lover_por_Taylor_Swift_%282019%29.png" alt="Lover">
+        <a href="https://open.spotify.com/intl-pt/album/1NAmidJlEaVgA3MpcPFYGq?si=xpGA47tpQ4aa5GZb4KT8Qw" target="_blank">Lover</a>
+      </div>
+
+      <!-- Folklore -->
+      <div class="album">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ca/f3/67/caf367a5-2cf6-6b2e-a891-97dc57b19f08/20UMGIM64216.rgb.jpg/1200x1200bf-60.jpg" alt="Folklore">
+        <a href="https://open.spotify.com/intl-pt/album/2fenSS68JI1h4Fo296JfGr?si=QDlMR4NcRsCDbxqBQLW1Ow" target="_blank">Folklore</a>
+      </div>
+
+      <!-- Evermore -->
+      <div class="album">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/4/4f/Evermore_-_Taylor_Swift.png" alt="Evermore">
+        <a href="https://open.spotify.com/intl-pt/album/2Xoteh7uEpea4TohMxjtaq?si=vBBF2LFGRSSzKIIZDuafig" target="_blank">Evermore</a>
+      </div>
+
+      <!-- Fearless (Taylor's Version) -->
+      <div class="album">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/e/ee/Fearless_%28Taylor%27s_Version%29.png" alt="Fearless (Taylor's Version)">
+        <a href="https://open.spotify.com/intl-pt/album/4hDok0OAJd57SGIT8xuWJH?si=Bl7Df5HoRDSuv96HD5OGEA" target="_blank">Fearless (Taylor's Version)</a>
+      </div>
+
+      <!-- Red (Taylor's Version) -->
+      <div class="album">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/8/8e/Red_%28Taylor%27s_Version%29.png" alt="Red (Taylor's Version)">
+        <a href="https://open.spotify.com/intl-pt/album/6kZ42qRrzov54LcAk4onW9?si=k30QiBbxQr6gjLEn3Vlp-Q" target="_blank">Red (Taylor's Version)</a>
+      </div>
+
+      <!-- Midnights -->
+      <div class="album">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/11/33/de/1133deee-070e-98d3-950a-2269807b074e/22UM1IM24801.rgb.jpg/1200x1200bb.jpg" alt="Midnights">
+        <a href="https://open.spotify.com/intl-pt/album/151w1FgRZfnKZA9FEcg9Z3?si=v1iOsAAYRTqfiq4P4nh6UQ" target="_blank">Midnights</a>
+      </div>
+
+      <!-- Speak Now (Taylor's Version) -->
+      <div class="album">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/2/2e/Speak_Now_%28Taylor%27s_Version%29.png" alt="Speak Now (Taylor's Version)">
+        <a href="https://open.spotify.com/intl-pt/album/5AEDGbliTTfjOB8TSm1sxt?si=0t8TK6LWSEuOoGJD6a5vFg" target="_blank">Speak Now (Taylor's Version)</a>
+      </div>
+
+      <!-- 1989 (Taylor's Version) -->
+      <div class="album">
+        <img src="https://i.scdn.co/image/ab67616d0000b273904445d70d04eb24d6bb79ac" alt="1989 (Taylor's Version)">
+        <a href="https://open.spotify.com/intl-pt/album/64LU4c1nfjz1t4VnGhagcg?si=y-CUtTDoRe-ssHcvjAlW3Q" target="_blank">1989 (Taylor's Version)</a>
+      </div>
+
+      <!-- The Tortured Poets Department -->
+      <div class="album">
+        <img src="https://cdn-images.dzcdn.net/images/cover/73bee9f48378d4c95139e693fd997569/0x1900-000000-80-0-0.jpg" alt="The Tortured Poets Department">
+        <a href="https://open.spotify.com/intl-pt/album/1Mo4aZ8pdj6L1jx8zSwJnt?si=ZjmZbV7bRYaIE-fIe8g9MA" target="_blank">The Tortured Poets Department</a>
+      </div>
+    </div>
+
+    <!-- Versões Alternativas -->
+    <h3 class="alternative-title">Versões Alternativas</h3>
+
+    <div class="album-container">
+      <!-- Speak Now (Deluxe) -->
+      <div class="album">
+        <img src="https://i.scdn.co/image/ab67616d0000b2732e4ec3175d848eca7b76b07f" alt="Speak Now (Deluxe)">
+        <a href="https://open.spotify.com/intl-pt/album/1yGbNOtRIgdIiGHOEBaZWf?si=lS9IeDqJTEKfbeA3DTKb2g" target="_blank">Speak Now (Deluxe)</a>
+      </div>
+
+      <!-- Red (Deluxe) -->
+      <div class="album">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f1/cf/9a/f1cf9a28-afff-b156-22b8-2b3a2d2daa25/00602537223695.rgb.jpg/1200x1200bf-60.jpg" alt="Red (Deluxe)">
+        <a href="https://open.spotify.com/intl-pt/album/1KVKqWeRuXsJDLTW0VuD29?si=GJL9zFkhRrCV91XXV_ePbA" target="_blank">Red (Deluxe)</a>
+      </div>
+
+      <!-- 1989 (Deluxe) -->
+      <div class="album">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/69/32/41/69324127-ac8b-eca6-c749-a93b34692eb6/00602537993765.rgb.jpg/1200x1200bf-60.jpg" alt="1989 (Deluxe)">
+        <a href="1989_DELUXE_SPOTIFY_URL" target="_blank">1989 (Deluxe)</a>
+      </div>
+
+      <!-- Folklore (Deluxe) -->
+      <div class="album">
+        <img src="https://i.scdn.co/image/ab67616d0000b273c288028c2592f400dd0b9233" alt="Folklore (Deluxe)">
+        <a href="https://open.spotify.com/intl-pt/album/1pzvBxYgT6OVwJLtHkrdQK?si=lIA1sdhoQ_iL_DZv3J0Rgg" target="_blank">Folklore (Deluxe)</a>
+      </div>
+
+      <!-- Evermore (Deluxe) -->
+      <div class="album">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/44/e3/94/44e3945f-d613-09f8-538a-aba063d59358/20UM1IM14847.rgb.jpg/1200x1200bb.jpg" alt="Evermore (Deluxe)">
+        <a href="https://open.spotify.com/intl-pt/album/6AORtDjduMM3bupSWzbTSG?si=OrBLOpTDQV-Y4DcVa5nnDw" target="_blank">Evermore (Deluxe)</a>
+      </div>
+
+      <!-- 1989 (Taylor's Version Deluxe) -->
+      <div class="album">
+        <img src="https://cdn-images.dzcdn.net/images/cover/0e671605d9d70d6c9ccdbf246f1fe650/500x500.jpg" alt="1989 (Taylor's Version) Deluxe">
+        <a href="https://open.spotify.com/intl-pt/album/1o59UpKw81iHR0HPiSkJR0?si=aXVbocFtRqmdDVSqPXzFYQ" target="_blank">1989 (Taylor's Version) Deluxe</a>
+      </div>
+
+      <!-- Midnights (3AM Edition) -->
+      <div class="album">
+        <img src=https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/59/13/5c/59135ccc-8425-415c-7f89-8aeada60088e/22UM1IM22440.rgb.jpg/1200x1200bb.jpg alt="Midnights (3AM Edition)">
+        <a href="https://open.spotify.com/intl-pt/album/3lS1y25WAhcqJDATJK70Mq?si=p2ur9CCaSG21WDBvoS3bZw" target="_blank">Midnights (3AM Edition)</a>
+      </div>
+
+      <!-- Midnights (Til Dawn Edition) -->
+      <div class="album">
+        <img src=https://lastfm.freetls.fastly.net/i/u/ar0/10c6e02743956727145fcada8d5cc73a.jpg alt="Midnights (Til Dawn Edition)">
+        <a href="https://open.spotify.com/intl-pt/album/1fnJ7k0bllNfL1kVdNVW1A?si=cHACTP1nQWGfAWDWi0bvnQ" target="_blank">Midnights (Til Dawn Edition)</a>
+      </div>
+
+      <!-- The Tortured Poets Department: The Anthology -->
+      <div class="album">
+        <img src="https://cdn-images.dzcdn.net/images/cover/bfabb6f70db5842a2c42d0d431ab65ef/0x1900-000000-80-0-0.jpg" alt="The Tortured Poets Department: The Anthology">
+        <a href="https://open.spotify.com/intl-pt/album/5H7ixXZfsNMGbIE5OBSpcb?si=OoMKJZj1RRCeGkN1J4PWbw" target="_blank">The Tortured Poets Department: The Anthology</a>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Discografia de Taylor Swift. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
